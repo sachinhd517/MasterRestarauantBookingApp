@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35617.110 d17.13
+VisualStudioVersion = 17.13.35617.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastaurantBookingApp.API", "RastaurantBookingApp.API\RastaurantBookingApp.API.csproj", "{C865AFC8-129F-4F06-967A-7DA8277B5703}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestarauantBookingApp.Data", "RestarauantBookingApp.Data\RestarauantBookingApp.Data.csproj", "{EA2062E3-DE45-448B-9D93-AF6446CA77FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestarauantBookingApp.Service", "RestarauantBookingApp.Service\RestarauantBookingApp.Service.csproj", "{531D698A-369A-488B-BE3A-15F6E1207FC3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "RestaurantBoolingApp.UI", "RestaurantBoolingApp.UI\RestaurantBoolingApp.UI.esproj", "{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,12 @@ Global
 		{531D698A-369A-488B-BE3A-15F6E1207FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531D698A-369A-488B-BE3A-15F6E1207FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531D698A-369A-488B-BE3A-15F6E1207FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405D3549-8CF0-7815-DAFE-4AA4A0F4EE2E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
