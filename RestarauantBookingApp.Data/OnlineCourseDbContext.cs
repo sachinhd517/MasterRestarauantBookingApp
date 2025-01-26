@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using RestaurantBookingApp.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace RestaurantBookingApp.Data.Entities;
 
@@ -60,7 +57,7 @@ public partial class OnlineCourseDbContext : DbContext
             entity.HasKey(e => e.CategoryId).HasName("PK_CourseCategory_CategoryId");
         });
 
-        modelBuilder.Entity<Enrollment>(entity =>
+        object value = modelBuilder.Entity<Enrollment>(entity =>
         {
             entity.HasKey(e => e.EnrollmentId).HasName("PK_Enrollment_EnrollmentId");
 
