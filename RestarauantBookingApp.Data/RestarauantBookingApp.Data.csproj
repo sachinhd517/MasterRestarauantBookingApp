@@ -14,6 +14,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RestarauantBookingApp.Core\RestarauantBookingApp.Core.csproj" />
     <ProjectReference Include="..\RestarauantBookingApp.Service\RestarauantBookingApp.Service.csproj" />
   </ItemGroup>
 </Project>

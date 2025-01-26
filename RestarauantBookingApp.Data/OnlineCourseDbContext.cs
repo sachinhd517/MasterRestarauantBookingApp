@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using RestaurantBookingApp.Core.Entities;
 
-namespace RestarauantBookingApp.Data.Entities;
+namespace RestaurantBookingApp.Data.Entities;
 
 public partial class OnlineCourseDbContext : DbContext
 {

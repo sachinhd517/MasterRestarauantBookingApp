@@ -1,4 +1,4 @@
-﻿namespace RestarauantBookingApp.Core
+﻿namespace RestaurantBookingApp.Core
 {
     public class Class1
     {

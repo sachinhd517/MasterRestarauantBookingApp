@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace RestarauantBookingApp.Data.Entities;
+namespace RestaurantBookingApp.Data.Entities;
 
 [Table("Instructor")]
 public partial class Instructor

@@ -1,4 +1,4 @@
-﻿namespace RestarauantBookingApp.Service
+﻿namespace RestaurantBookingApp.Service
 {
     public class Class1
     {

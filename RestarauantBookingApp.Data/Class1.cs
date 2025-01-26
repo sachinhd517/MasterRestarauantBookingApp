@@ -1,4 +1,4 @@
-﻿namespace RestarauantBookingApp.Data
+﻿namespace RestaurantBookingApp.Data
 {
     public class Class1
     {

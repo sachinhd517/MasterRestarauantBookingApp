@@ -1,6 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-using RestarauantBookingApp.Data.Entities;
+using RestaurantBookingApp.Data.Entities;
 
 namespace RastaurantBookingApp.API
 {
