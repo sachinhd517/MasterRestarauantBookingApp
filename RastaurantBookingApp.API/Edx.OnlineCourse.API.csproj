@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" />
@@ -11,10 +11,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RestarauantBookingApp.Core\RestarauantBookingApp.Core.csproj" />
-    <ProjectReference Include="..\RestarauantBookingApp.Service\RestarauantBookingApp.Service.csproj" />
+    <ProjectReference Include="..\RestarauantBookingApp.Core\Edx.OnlineCourse.Core.csproj" />
+    <ProjectReference Include="..\RestarauantBookingApp.Data\Edx.OnlineCourse.Data.csproj" />
+    <ProjectReference Include="..\RestarauantBookingApp.Service\Edx.OnlineCourse.Service.csproj" />
   </ItemGroup>
 </Project>

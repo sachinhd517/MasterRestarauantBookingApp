@@ -5,6 +5,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RestarauantBookingApp.Core\RestarauantBookingApp.Core.csproj" />
+    <ProjectReference Include="..\RestarauantBookingApp.Core\Edx.OnlineCourse.Core.csproj" />
   </ItemGroup>
 </Project>
