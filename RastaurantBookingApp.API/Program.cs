@@ -1,6 +1,9 @@
 
+using Edx.OnlineCourse.Data;
+using Edx.OnlineCourse.Service;
 using Microsoft.EntityFrameworkCore;
 using RestaurantBookingApp.Data.Entities;
+using ICourseCategoryRepository = Edx.OnlineCourse.Data.ICourseCategoryRepository;
 
 namespace RastaurantBookingApp.API
 {
@@ -32,6 +35,11 @@ namespace RastaurantBookingApp.API
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
+
+
+            // configure the services
+            builder.Services.AddScoped<ICourseCategoryRepository, CourseCategoryRepository>();
+            builder.Services.AddScoped<ICourseCategoryService, CourseCategoryService>();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
